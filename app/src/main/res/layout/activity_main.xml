@@ -1,0 +1,28 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/switch_btn"
+        android:elevation="8dp"
+        android:importantForAccessibility="no"
+        android:src="@android:drawable/ic_menu_myplaces"
+        app:backgroundTint="@android:color/holo_blue_light" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="WebViewLayout" >
+
+    </WebView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

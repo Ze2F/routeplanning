@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Route Planning</string>
+    <string name="switch_btn">GPS / Default Location</string>
+</resources>
